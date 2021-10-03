@@ -4,7 +4,6 @@ import './TeamDetail.css';
 import male from '../../images/male.png';
 import female from '../../images/female.png';
 import { Col, Container, Row } from 'react-bootstrap';
-import MenuBar from '../MenuBar/MenuBar';
 
 const TeamDetails = () => {
 
@@ -19,8 +18,7 @@ const TeamDetails = () => {
 
     return (
         
-        <div className="team-detail">  
-        <MenuBar></MenuBar>         
+        <div className="team-detail pt-5">        
             <div>
                 {
                     teamDetail?.strGender === "Male" ? (

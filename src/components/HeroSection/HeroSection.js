@@ -2,13 +2,12 @@ import React from 'react';
 import { Col, Container, Row, Button } from 'react-bootstrap';
 import './HeroSection.css';
 import '../../components/MenuBar/MenuBar';
-import MenuBar from '../../components/MenuBar/MenuBar';
 
 const HeroSection = () => {
     return (
         <div>
             <div className="hero-section text-white">
-                <MenuBar></MenuBar>
+                
             <Container>
                 <Row>
                     <Col className="text-area">

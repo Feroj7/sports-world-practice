@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { Card, Container, Row, Button, Col, Alert } from 'react-bootstrap';
 import { NavLink } from 'react-router-dom';
-import MenuBar from '../MenuBar/MenuBar';
 import './Sports.css';
 
 const Sports = () => {
@@ -18,8 +17,9 @@ const Sports = () => {
         setSearchText(event.target.value);
     }
     return (
+        
         <div className="all-teams">
-        <MenuBar></MenuBar>
+        
             <div className="text-center">
                 <h2>Our Teams</h2>
                 <input onChange={handleSearch} className="p-2" type="text" placeholder="Enter team name" />

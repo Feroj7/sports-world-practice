@@ -11,7 +11,7 @@ const MenuBar = () => {
 
     return (
         <div>
-            <Navbar expand="lg" >
+            <Navbar expand="lg" bg="dark" >
                 <Container>
                         <Navbar.Brand href="#home" className="text-white" style={{marginRight:'900px'}}>React-Bootstrap</Navbar.Brand>
                         <Navbar.Toggle aria-controls="basic-navbar-nav" />
